@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		31A913102A04122100D4AE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9130F2A04122100D4AE6D /* AppDelegate.swift */; };
 		31A913122A04122100D4AE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A913112A04122100D4AE6D /* ContentView.swift */; };
-		31A913142A04122100D4AE6D /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 31A913132A04122100D4AE6D /* Experience.rcproject */; };
 		31A913162A04122200D4AE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A913152A04122200D4AE6D /* Assets.xcassets */; };
 		31A913192A04122200D4AE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A913182A04122200D4AE6D /* Preview Assets.xcassets */; };
 		31A913232A04122300D4AE6D /* Everyones_Code_But_BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A913222A04122300D4AE6D /* Everyones_Code_But_BasicTests.swift */; };
 		31A9132D2A04122300D4AE6D /* Everyones_Code_But_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9132C2A04122300D4AE6D /* Everyones_Code_But_BasicUITests.swift */; };
 		31A9132F2A04122300D4AE6D /* Everyones_Code_But_BasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9132E2A04122300D4AE6D /* Everyones_Code_But_BasicUITestsLaunchTests.swift */; };
+		31A9133E2A0412BD00D4AE6D /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9133D2A0412BD00D4AE6D /* Wrapper.swift */; };
+		31A913402A04134D00D4AE6D /* SMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9133F2A04134D00D4AE6D /* SMSView.swift */; };
+		31A9134A2A0416B100D4AE6D /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A913492A0416B100D4AE6D /* AppDataModel.swift */; };
+		31A9134C2A0417A400D4AE6D /* AppStartsHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9134B2A0417A400D4AE6D /* AppStartsHere.swift */; };
+		31A9134F2A041A9500D4AE6D /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9134E2A041A9500D4AE6D /* MessagesViewController.swift */; };
+		31DD653A2A041FAE00EA1C54 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 31DD65392A041FAE00EA1C54 /* Experience.rcproject */; };
+		31DD653D2A04210B00EA1C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DD653B2A04210B00EA1C54 /* LaunchScreen.storyboard */; };
+		31DD65402A04210F00EA1C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DD653E2A04210F00EA1C54 /* Main.storyboard */; };
+		31DD65422A04211400EA1C54 /* LibraryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD65412A04211400EA1C54 /* LibraryCode.swift */; };
+		31DD65442A04211700EA1C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD65432A04211700EA1C54 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,6 @@
 		31A9130C2A04122100D4AE6D /* Everyones Code But Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everyones Code But Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A9130F2A04122100D4AE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31A913112A04122100D4AE6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		31A913132A04122100D4AE6D /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		31A913152A04122200D4AE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31A913182A04122200D4AE6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31A9131E2A04122300D4AE6D /* Everyones Code But BasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everyones Code But BasicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +54,17 @@
 		31A913282A04122300D4AE6D /* Everyones Code But BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everyones Code But BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A9132C2A04122300D4AE6D /* Everyones_Code_But_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everyones_Code_But_BasicUITests.swift; sourceTree = "<group>"; };
 		31A9132E2A04122300D4AE6D /* Everyones_Code_But_BasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everyones_Code_But_BasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31A9133D2A0412BD00D4AE6D /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		31A9133F2A04134D00D4AE6D /* SMSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSView.swift; sourceTree = "<group>"; };
+		31A913492A0416B100D4AE6D /* AppDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		31A9134B2A0417A400D4AE6D /* AppStartsHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartsHere.swift; sourceTree = "<group>"; };
+		31A9134D2A04182100D4AE6D /* Everyones-Code-But-Basic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Everyones-Code-But-Basic-Info.plist"; path = "Everyones Code But Basic/Universal Links/Everyones-Code-But-Basic-Info.plist"; sourceTree = SOURCE_ROOT; };
+		31A9134E2A041A9500D4AE6D /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		31DD65392A041FAE00EA1C54 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Experience.rcproject; path = "../../../../Brady/Multi-ARview Selector/Experience.rcproject"; sourceTree = "<group>"; };
+		31DD653C2A04210B00EA1C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Rad/ScanningTextExample/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DD653F2A04210F00EA1C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Rad/ScanningTextExample/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31DD65412A04211400EA1C54 /* LibraryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryCode.swift; path = ../../../../Rad/ScanningTextExample/LibraryCode.swift; sourceTree = "<group>"; };
+		31DD65432A04211700EA1C54 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Rad/ScanningTextExample/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +115,13 @@
 		31A9130E2A04122100D4AE6D /* Everyones Code But Basic */ = {
 			isa = PBXGroup;
 			children = (
-				31A9130F2A04122100D4AE6D /* AppDelegate.swift */,
-				31A913112A04122100D4AE6D /* ContentView.swift */,
-				31A913132A04122100D4AE6D /* Experience.rcproject */,
-				31A913152A04122200D4AE6D /* Assets.xcassets */,
 				31A913172A04122200D4AE6D /* Preview Content */,
+				31A913482A0414F900D4AE6D /* AR XP */,
+				31A913472A0414EA00D4AE6D /* Text Scan */,
+				31A913462A0414D600D4AE6D /* SMS */,
+				31A913452A0414C500D4AE6D /* Universal Links */,
+				31A9133D2A0412BD00D4AE6D /* Wrapper.swift */,
+				31A9134B2A0417A400D4AE6D /* AppStartsHere.swift */,
 			);
 			path = "Everyones Code But Basic";
 			sourceTree = "<group>";
@@ -128,6 +149,46 @@
 				31A9132E2A04122300D4AE6D /* Everyones_Code_But_BasicUITestsLaunchTests.swift */,
 			);
 			path = "Everyones Code But BasicUITests";
+			sourceTree = "<group>";
+		};
+		31A913452A0414C500D4AE6D /* Universal Links */ = {
+			isa = PBXGroup;
+			children = (
+				31A9134D2A04182100D4AE6D /* Everyones-Code-But-Basic-Info.plist */,
+				31A913492A0416B100D4AE6D /* AppDataModel.swift */,
+			);
+			path = "Universal Links";
+			sourceTree = "<group>";
+		};
+		31A913462A0414D600D4AE6D /* SMS */ = {
+			isa = PBXGroup;
+			children = (
+				31A9133F2A04134D00D4AE6D /* SMSView.swift */,
+				31A9134E2A041A9500D4AE6D /* MessagesViewController.swift */,
+			);
+			path = SMS;
+			sourceTree = "<group>";
+		};
+		31A913472A0414EA00D4AE6D /* Text Scan */ = {
+			isa = PBXGroup;
+			children = (
+				31DD653B2A04210B00EA1C54 /* LaunchScreen.storyboard */,
+				31DD653E2A04210F00EA1C54 /* Main.storyboard */,
+				31DD65412A04211400EA1C54 /* LibraryCode.swift */,
+				31DD65432A04211700EA1C54 /* ViewController.swift */,
+			);
+			path = "Text Scan";
+			sourceTree = "<group>";
+		};
+		31A913482A0414F900D4AE6D /* AR XP */ = {
+			isa = PBXGroup;
+			children = (
+				31A913152A04122200D4AE6D /* Assets.xcassets */,
+				31A9130F2A04122100D4AE6D /* AppDelegate.swift */,
+				31A913112A04122100D4AE6D /* ContentView.swift */,
+				31DD65392A041FAE00EA1C54 /* Experience.rcproject */,
+			);
+			path = "AR XP";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DD653D2A04210B00EA1C54 /* LaunchScreen.storyboard in Resources */,
 				31A913192A04122200D4AE6D /* Preview Assets.xcassets in Resources */,
 				31A913162A04122200D4AE6D /* Assets.xcassets in Resources */,
+				31DD65402A04210F00EA1C54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DD65442A04211700EA1C54 /* ViewController.swift in Sources */,
 				31A913122A04122100D4AE6D /* ContentView.swift in Sources */,
+				31A9134A2A0416B100D4AE6D /* AppDataModel.swift in Sources */,
+				31A9134F2A041A9500D4AE6D /* MessagesViewController.swift in Sources */,
+				31DD65422A04211400EA1C54 /* LibraryCode.swift in Sources */,
+				31A9133E2A0412BD00D4AE6D /* Wrapper.swift in Sources */,
+				31DD653A2A041FAE00EA1C54 /* Experience.rcproject in Sources */,
+				31A9134C2A0417A400D4AE6D /* AppStartsHere.swift in Sources */,
 				31A913102A04122100D4AE6D /* AppDelegate.swift in Sources */,
-				31A913142A04122100D4AE6D /* Experience.rcproject in Sources */,
+				31A913402A04134D00D4AE6D /* SMSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +367,25 @@
 			targetProxy = 31A913292A04122300D4AE6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31DD653B2A04210B00EA1C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DD653C2A04210B00EA1C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		31DD653E2A04210F00EA1C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DD653F2A04210F00EA1C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		31A913302A04122300D4AE6D /* Debug */ = {
@@ -424,6 +513,8 @@
 				DEVELOPMENT_TEAM = G95MY2UL8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Everyones-Code-But-Basic-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,12 +522,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Fabbautis.Everyones-Code-But-Basic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fabbautis.textScanning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -455,6 +547,8 @@
 				DEVELOPMENT_TEAM = G95MY2UL8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Everyones-Code-But-Basic-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,12 +556,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Fabbautis.Everyones-Code-But-Basic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fabbautis.textScanning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
