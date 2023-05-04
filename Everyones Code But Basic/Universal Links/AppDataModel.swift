@@ -9,7 +9,7 @@ import SwiftUI
 
 class AppDataModel: ObservableObject {
     @Published var currentTab: Tab = .scanDewey
-    var selectedTab: Wrapper = Wrapper()
+    @Published var currentExperience: Int? = 1
     
     func checkDeepLink(url:URL) -> Bool{
         guard let host = URLComponents(url:url, resolvingAgainstBaseURL: true)?.host else {
@@ -18,16 +18,29 @@ class AppDataModel: ObservableObject {
         if host == Tab.sendMessage.rawValue{
             currentTab = .sendMessage
         }
-        if host == Tab.scanDewey.rawValue{
+        else if host == Tab.scanDewey.rawValue{
             currentTab = .scanDewey
         }
         else if host == Tab.scanSticker.rawValue{
             currentTab = .scanSticker
         }
         else{
-            return false;
+            return checkInternalLinks(host: host)
+            
         }
         return true
+    }
+    
+    //this is for if a user has a subdirectory inside the link (testingLinks://Message/12)
+    func checkInternalLinks(host: String) -> Bool{
+        if let index = availableExperiences.firstIndex(where: { experience in
+            return experience.id == Int(host);
+        }){
+            currentTab = .scanSticker
+            currentExperience = availableExperiences[index].id
+            return true
+        }
+        return false
     }
 }
 
